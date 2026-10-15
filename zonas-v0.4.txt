@@ -1,0 +1,29 @@
+DOCUMENTO DE ZONAS Y MEDIDAS · Version A · HTML v0.4 · 2026-10-15
+One Pager Caja de Ahorro (Apoya Crece Mexico). Lienzo fijo 1920 x 1080, sin scroll (se escala para caber en cualquier pantalla).
+Medidas en pixeles: x, y, ancho x alto. Las zonas con flechas cambian de contenido con animacion de 0.4 s.
+
+CODIGO | ZONA | x | y | ancho x alto
+Z1 | Franja azul | 0 | 0 | 660 x 1080
+1a | Titulo | 56 | 48 | 548 x 118
+1b | Subtitulo | 56 | 190 | 548 x 72
+1c | Numeros / La solucion (cambia con flechas) | 56 | 332 | 548 x 560
+1d | Flechas y puntos | 56 | 918 | 548 x 44
+1e | Certificaciones | 56 | 980 | 548 x 50
+Z2 | Tarjeta Que es / Que NO es | 708 | 48 | 1156 x 282
+2a | Titulo | 783 | 76 | 121 x 34
+2c | Flechas y puntos | 1685 | 71 | 148 x 44
+2b | Texto | 739 | 127 | 1094 x 135
+Z3 | Beneficios | 708 | 348 | 1156 x 614
+3a | Titulo | 783 | 376 | 135 x 34
+3b | Flechas y puntos | 1685 | 371 | 148 x 44
+3c | Imagen (frasco / equipo en planta) | 739 | 435 | 520 x 504
+3d | Lista de beneficios | 1299 | 435 | 534 x 504
+Z4 | Pie | 708 | 980 | 1156 x 50
+4a | Lema | 708 | 996 | 612 x 28
+4b | Sitio web | 1639 | 996 | 225 x 28
+
+PIELES (3): 1 Contorno negro (inicial), 2 Claro integrado, 3 Negro integrado. Control discreto: tres puntos abajo a la izquierda de la ventana (casi invisibles; se ven al pasar el cursor) y teclas P (cambia de piel) y C (ver/ocultar codigos). La piel elegida se recuerda en el navegador.
+BOTONES DE CALIBRACION (no son parte del producto): los tres puntos de piel y 'Ver codigos / Ocultar codigos'. Se quitan en la version final.
+Teclado: flechas izquierda/derecha cambian las tres zonas a la vez.
+PRUEBA SIN SCROLL (3 pieles x 5 resoluciones): 1920x1080, 1920x800, 1536x760, 1366x768, 1280x700 -> sin scroll vertical ni horizontal. Sin desbordes en ambos estados.
+PENDIENTE: eleccion de pie op1 u op3, animaciones definitivas.
